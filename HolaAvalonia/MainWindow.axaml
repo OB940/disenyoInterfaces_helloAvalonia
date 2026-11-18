@@ -6,8 +6,8 @@
         x:Class="HolaAvalonia.MainWindow"
         Title="DISEÑOINTERFACES_PRACTICA3P1">
     
-    <StackPanel>
-        <TextBlock Text="HOLA, BIENVENID@ A AVALONIAUI"></TextBlock>
-        <Button Content="BOTÓN" Width="120"></Button>
+    <StackPanel Name="panel">
+        <TextBlock Name="saludo" Text="HOLA, BIENVENID@ A AVALONIA"></TextBlock>
+        <Button Name="boton" Content="BOTÓN" Width="80" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
     </StackPanel>
 </Window>
